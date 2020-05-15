@@ -1,0 +1,33 @@
+/* css rest start*/
+p{
+  margin: 0;
+}
+/* css rest stop*/
+body{
+  background-image: url("./img/bg-body.jpg")
+}
+.container_feature{
+background-color: #366819;
+}
+header{
+  background-color: white;
+}
+header img{
+  display: inline-block;
+}
+header h1,.text_center{
+  text-align: center;
+}
+.nav_feature{
+  background-color: #4B4B4B;
+  border-bottom: 1px solid white;
+}
+.nav-item .nav_link_feature{
+  color:#E9EB9D !important;
+}
+.navbar-collapse a:hover{
+  background-color: #98B28B;
+}
+.navbar-collapse ul li{
+  flex: 1 0 0;
+}
