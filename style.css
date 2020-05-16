@@ -31,3 +31,55 @@ header h1,.text_center{
 .navbar-collapse ul li{
   flex: 1 0 0;
 }
+.carousel_feature{
+  position: absolute;
+bottom: 0;
+z-index: 10;
+padding: 20px;
+color: #fff;
+background-color:rgba(0, 0, 0, 0.5);
+}
+.text_green{
+  color:#E9EB9D;
+}
+.banner_list_feature h5{
+  color:#e4e899;
+  font-size: 1.2rem;
+}
+.banner_list_feature{
+  color: white;
+}
+.article_container_feature{
+  background-color: white;
+}
+.article_container_feature h2{
+  font-size: 1.5rem;
+  background-color: #DCE8D4;
+  border-bottom: 2px solid #ABC79A ;
+}
+h2{
+  color:#784413;
+}
+hr{
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+.text{
+  padding: 10px 25px;
+  list
+}
+.counter_reset {
+  counter-reset: num;
+  position: relative;
+  list-style: none;
+}
+
+.counter_reset li:before {
+  counter-increment: num;
+  content: counter(num) '.';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  text-align: right;
+  width: 1.5em;
+  font-weight: 600;
+}
