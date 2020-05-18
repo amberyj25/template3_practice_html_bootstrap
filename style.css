@@ -112,4 +112,38 @@ footer .media_list a:hover{
 .media_list i{
   vertical-align: center;
 }
+@media (min-width: 992px) {
+  .banner_list_container_feature{
+      border-right: 2px solid #2B5B0F;
+  }
+  .footer_feature{
+      text-align: left;
+  }
+  .banner_list_feature h5{
+      font-size: 1rem;
+  }
+  .banner_list_feature{
+      font-size: 0.5rem;
+  } 
+  .article_container_list_feature img{
+      padding-right: 16px;
+  }
+}
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .media-body .word{
+  word-spacing: 5px;
+  }
+  .banner_list_container_feature{
+      margin-bottom: 1rem;
+      border: 0;
+  }
+  .banner_list_container_feature{
+      margin-bottom: 1rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .banner_list_container_feature{
+      margin-bottom: 1rem;
+  }
+}
 
